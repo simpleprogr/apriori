@@ -4,22 +4,18 @@ from PIL import Image
 from komputasi import data_summary, MBA
 
 # Set judul dan ikon
-col1, col2, col3 = st.columns(3)
-with col1:
-    st.write(' ')
-
-with col2:
-    st.title('Underprice Skincare')
-
-with col3:
-    st.write(' ')
-
-
-st.title('Underprice Skincare')
-st.write('Implementasi Data Mining Dalam Menganalisis Pola Penjualan Produk Kecantikan Menggunakan Metode Algoritma Apriori')
+st.set_page_config(page_title="Underprice Skincare", page_icon="images/icon.jpg", layout="wide")
 
 # Menampilkan judul dan deskripsi
-st.title("<h1 style='text-align: center; color: white;'>Implementasi Data Mining Dalam Menganalisis Pola Penjualan Produk Kecantikan Menggunakan Metode Algoritma Apriori</h1>")
+mystyle = '''
+    <style>
+        p {
+            text-align: center;
+        }
+    </style>
+    '''
+st.title(mystyle,'Underprice Skincare')
+st.write(mystyle,'Implementasi Data Mining Dalam Menganalisis Pola Penjualan Produk Kecantikan Menggunakan Metode Algoritma Apriori')
 
 # Menampilkan gambar
 image = Image.open('images/under.png')
