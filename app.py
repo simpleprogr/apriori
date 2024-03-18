@@ -7,16 +7,7 @@ from komputasi import data_summary, MBA
 st.set_page_config(page_title="Underprice Skincare", page_icon="images/icon.jpg", layout="wide")
 
 # Menampilkan judul dan deskripsi
-col1, col2, col3 = st.columns((1,1,1))
-
-with col1:
-    st.write(' ')
-
-with col2:
-    st.title('Underprice Skincare')
-
-with col3:
-    st.write(' ')
+st.markdown("<h1 style='text-align: center; color: grey;'>Implementasi Data Mining Dalam Menganalisis Pola Penjualan Produk Kecantikan Menggunakan Metode Algoritma Apriori</h1>", unsafe_allow_html=True)
 #st.title('Underprice Skincare')
 #st.write('Implementasi Data Mining Dalam Menganalisis Pola Penjualan Produk Kecantikan Menggunakan Metode Algoritma Apriori')
 
