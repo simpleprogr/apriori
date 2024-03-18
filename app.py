@@ -19,7 +19,7 @@ with col1:
     st.write(' ')
 
 with col2:
-    #st.image(image)
+    st.write(' ')
 
 with col3:
     st.write(' ')
