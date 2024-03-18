@@ -7,7 +7,7 @@ from komputasi import data_summary, MBA
 st.set_page_config(page_title="Underprice Skincare", page_icon="images/icon.jpg", layout="wide")
 
 # Menampilkan judul dan deskripsi
-col1, col2, col3 = st.columns((1,3,1))
+col1, col2, col3 = st.columns((1,1,1))
 
 with col1:
     st.write(' ')
