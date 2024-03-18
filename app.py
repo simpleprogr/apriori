@@ -7,8 +7,18 @@ from komputasi import data_summary, MBA
 st.set_page_config(page_title="Underprice Skincare", page_icon="images/icon.jpg", layout="wide")
 
 # Menampilkan judul dan deskripsi
-st.title('Underprice Skincare')
-st.write('Implementasi Data Mining Dalam Menganalisis Pola Penjualan Produk Kecantikan Menggunakan Metode Algoritma Apriori')
+col1, col2, col3 = st.columns((1,3,1))
+
+with col1:
+    st.write(' ')
+
+with col2:
+    st.title('Underprice Skincare')
+
+with col3:
+    st.write(' ')
+#st.title('Underprice Skincare')
+#st.write('Implementasi Data Mining Dalam Menganalisis Pola Penjualan Produk Kecantikan Menggunakan Metode Algoritma Apriori')
 
 # Menampilkan gambar
 image = Image.open('images/under.png')
