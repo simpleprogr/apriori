@@ -10,13 +10,13 @@ st.set_page_config(page_title="Underprice Skincare", page_icon="images/icon.jpg"
 col1, col2, col3 = st.beta_columns([1,6,1])
 
 with col1:
-st.write("")
+st.write(' ')
 
 with col2:
-st.image("Implementasi Data Mining Dalam Menganalisis Pola Penjualan Produk Kecantikan Menggunakan Metode Algoritma Apriori")
+st.image('Implementasi Data Mining Dalam Menganalisis Pola Penjualan Produk Kecantikan Menggunakan Metode Algoritma Apriori')
 
 with col3:
-st.write("")
+st.write(' ')
 st.title(mystyle,'Underprice Skincare')
 st.write(mystyle,'Implementasi Data Mining Dalam Menganalisis Pola Penjualan Produk Kecantikan Menggunakan Metode Algoritma Apriori')
 
