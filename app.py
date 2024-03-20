@@ -26,10 +26,10 @@ with col3:
 #st.image(image)
 
 # Memuat dataset
-dataset_file = st.file_uploader("Upload Dataset Anda", type=['csv'])
+dataset_file = st.file_uploader("Upload Dataset Penjualan (.csv)", type=['csv'])
 st.write('Contoh format dataset : ')
-st.write('- ID,DATE,ITEM')
-st.write('- [Kaggle Groceries Dataset](https://www.kaggle.com/datasets/heeraldedhia/groceries-dataset?datasetId=877335&sortBy=voteCount)')
+st.write('- Kode,Date,Item')
+st.write('- [Download Contoh Dataset Disini](https://www.kaggle.com/datasets/heeraldedhia/groceries-dataset?datasetId=877335&sortBy=voteCount)')
 
 # Menangani kesalahan saat memuat dataset
 if dataset_file is None:
