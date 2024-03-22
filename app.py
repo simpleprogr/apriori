@@ -2,7 +2,6 @@ import pandas as pd
 import streamlit as st
 from PIL import Image
 from komputasi import data_summary, MBA
-with open("style.css") as f:
 
 # Set judul dan ikon
 st.set_page_config(page_title="Underprice Skincare", page_icon="images/icon.jpg", layout="wide")
