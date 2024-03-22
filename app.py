@@ -20,7 +20,8 @@ with col1:
 
 with col2:
     st.write(' ')
-    st.image(image)
+    st.markdown("<image style='align: center;' src='image'>", unsafe_allow_html=True)
+    #st.image(image)
 
 with col3:
     st.write(' ')
