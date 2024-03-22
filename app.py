@@ -7,12 +7,12 @@ from komputasi import data_summary, MBA
 st.set_page_config(page_title="Underprice Skincare", page_icon="images/icon.jpg", layout="wide")
 
 # Menampilkan judul dan deskripsi
-st.markdown("<h1 style='text-align: center; color: black;'>Implementasi Data Mining Dalam Menganalisis Pola Penjualan Produk Kecantikan Menggunakan Metode Algoritma Apriori</h1>", unsafe_allow_html=True)
+st.markdown("<h1 style='text-align: center; color: black;'>Implementasi Data Mining Untuk Menentukan Pola Penjualan Produk Kecantikan Menggunakan Algoritma Apriori (Studi Kasus : Uderprice.Skincare Medan)</h1>", unsafe_allow_html=True)
 #st.title('Underprice Skincare')
 #st.write('Implementasi Data Mining Dalam Menganalisis Pola Penjualan Produk Kecantikan Menggunakan Metode Algoritma Apriori')
 
 # Menampilkan gambar
-image = Image.open('images/under.png')
+image = Image.open('images/icon.jpg')
 col1, col2, col3 = st.columns(3)
 
 with col1:
@@ -20,6 +20,7 @@ with col1:
 
 with col2:
     st.write(' ')
+    st.image(image)
 
 with col3:
     st.write(' ')
