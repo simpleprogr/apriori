@@ -7,7 +7,7 @@ from komputasi import data_summary, MBA
 st.set_page_config(page_title="Underprice Skincare", page_icon="images/icon.jpg", layout="wide")
 
 # Menampilkan judul dan deskripsi
-st.markdown("<h1 style='text-align: center; color: black;'>Implementasi Data Mining Untuk Menentukan Pola Penjualan Produk Kecantikan Menggunakan Algoritma Apriori</h1>", unsafe_allow_html=True)
+st.markdown("<h1 style='text-align: center; color: black; background: url('http://i49.tinypic.com/2zs1z79.png') 0 0 repeat-x;'>Implementasi Data Mining Untuk Menentukan Pola Penjualan Produk Kecantikan Menggunakan Algoritma Apriori</h1>", unsafe_allow_html=True)
 #st.title('Underprice Skincare')
 #st.write('Implementasi Data Mining Dalam Menganalisis Pola Penjualan Produk Kecantikan Menggunakan Metode Algoritma Apriori')
 
