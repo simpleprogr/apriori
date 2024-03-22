@@ -21,13 +21,15 @@ with col1:
 
 with col2:
     st.write(' ')
-    #st.image(image)
+    st.image(image)
     with open("images/icon.jpg", "rb") as f:
     data = base64.b64encode(f.read()).decode("utf-8")
 
     st.markdown(
         f"""
-            <img src="data:image/jpg;base64,{data}" align="center">
+        <div style="display:table;margin-top:-20%;margin-left:20%;">
+            <img src="data:image/jpg;base64,{data}" width="100" height="150">
+        </div>
         """,
         unsafe_allow_html=True,
     )
