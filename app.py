@@ -14,17 +14,6 @@ st.markdown("<h1 style='text-align: center; color: black;'>Implementasi Data Min
 
 # Menampilkan gambar
 image = Image.open('images/icon.jpg')
-with open("images/icon.jpg", "rb") as f:
-    data = base64.b64encode(f.read()).decode("utf-8")
-
-    st.markdown(
-        f"""
-        <div style="display flex justify-content center;margin-top:-20%;margin-left:20%;">
-            <img src="data:image/jpg;base64,{data}" width="100" height="150" align="center">
-        </div>
-        """,
-        unsafe_allow_html=True,
-    )
 
 col1, col2, col3 = st.columns(3)
 with col1:
