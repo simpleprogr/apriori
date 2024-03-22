@@ -13,7 +13,7 @@ st.markdown("<h1 style='text-align: center; color: black;'>Implementasi Data Min
 
 # Menampilkan gambar
 image = Image.open('images/icon.jpg')
-st.image(
+st.markdown(
     """
     <style>
         [data-testid=image]{
