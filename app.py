@@ -16,7 +16,7 @@ image = Image.open('images/icon.jpg')
 st.markdown(
     """
     <style>        
-            text-align: center;
+            align: center;
             display: block;
             margin-left: auto;
             margin-right: auto;
