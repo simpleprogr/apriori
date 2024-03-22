@@ -14,7 +14,7 @@ st.markdown("<h1 style='text-align: center; color: black;'>Implementasi Data Min
 
 # Menampilkan gambar
 image = Image.open('images/icon.jpg')
-col1, col2, col3 = st.columns(3)
+col1, col2, col3 = st.columns([1,6,1])
 
 with col1:
     st.write(' ')
