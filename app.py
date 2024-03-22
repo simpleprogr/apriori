@@ -2,6 +2,7 @@ import pandas as pd
 import streamlit as st
 from PIL import Image
 from komputasi import data_summary, MBA
+with open("style.css") as f:
 
 # Set judul dan ikon
 st.set_page_config(page_title="Underprice Skincare", page_icon="images/icon.jpg", layout="wide")
@@ -13,19 +14,6 @@ st.markdown("<h1 style='text-align: center; color: black;'>Implementasi Data Min
 
 # Menampilkan gambar
 image = Image.open('images/icon.jpg')
-st.markdown(
-    """
-    <style>
-        [data-testid=image]{
-            text-align: center;
-            display: block;
-            margin-left: auto;
-            margin-right: auto;
-            width: 100%;
-        }
-    </style>
-    """, unsafe_allow_html=True
-)
 col1, col2, col3 = st.columns(3)
 
 with col1:
@@ -34,7 +22,6 @@ with col1:
 with col2:
     st.write(' ')
     st.image(image)
-    #st.image(image)
 
 with col3:
     st.write(' ')
