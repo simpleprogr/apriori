@@ -13,6 +13,18 @@ st.markdown("<h1 style='text-align: center; color: black;'>Implementasi Data Min
 
 # Menampilkan gambar
 image = Image.open('images/icon.jpg')
+st.markdown(
+    """
+    <style>        
+            text-align: center;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            width: 100%;
+        }
+    </style>
+    """, unsafe_allow_html=True
+)
 col1, col2, col3 = st.columns(3)
 
 with col1:
@@ -20,7 +32,7 @@ with col1:
 
 with col2:
     st.write(' ')
-    st.markdown("<image style='align: center;' src='image'>", unsafe_allow_html=True)
+    st.markdown(image)
     #st.image(image)
 
 with col3:
