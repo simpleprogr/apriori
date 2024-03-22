@@ -33,7 +33,7 @@ with col1:
 
 with col2:
     st.write(' ')
-    st.markdown(image)
+    st.image(image)
     #st.image(image)
 
 with col3:
