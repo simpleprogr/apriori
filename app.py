@@ -19,7 +19,7 @@ with open("images/icon.jpg", "rb") as f:
 
     st.markdown(
         f"""
-        <div>
+        <div style="display flex justify-content center;margin-top:-20%;margin-left:20%;">
             <img src="data:image/jpg;base64,{data}" width="100" height="150" align="center">
         </div>
         """,
