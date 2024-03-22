@@ -28,7 +28,7 @@ with col2:
     st.markdown(
         f"""
         <div style="display:table;margin-top:-20%;margin-left:20%;">
-            <img src="data:image/jpg;base64,{data}" width="100" height="150">
+            <img src="data:image/jpg;base64,{data}" width="100" height="150" align="center">
         </div>
         """,
         unsafe_allow_html=True,
