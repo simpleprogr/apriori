@@ -13,7 +13,7 @@ st.markdown("<h1 style='text-align: center; color: black; background: url('http:
 
 # Menampilkan gambar
 image = Image.open('images/icon.jpg')
-col1, col2, col3 = st.beta_columns([1,2,1])
+col1, col2, col3 = st.columns(3)
 
 with col1:
     st.write(' ')
