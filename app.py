@@ -17,7 +17,7 @@ image = Image.open('images/icon.jpg')
 with open("images/icon.jpg", "rb") as f:
     data = base64.b64encode(f.read()).decode("utf-8")
 
-    st.sidebar.markdown(
+    st.markdown(
         f"""
         <div style="display:table;margin-top:-20%;margin-left:20%;">
             <img src="data:image/jpg;base64,{data}" width="100" height="150">
@@ -25,9 +25,7 @@ with open("images/icon.jpg", "rb") as f:
         """,
         unsafe_allow_html=True,
     )
-
-    st.sidebar.header("Part 1")
-    st.sidebar.markdown("Here is some text")
+    
 col1, col2, col3 = st.columns(3)
 
 with col1:
