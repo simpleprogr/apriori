@@ -20,7 +20,7 @@ with col1:
 
 with col2:
     st.write(' ')
-    st.image(image, width=512)
+    st.image(image, width=400)
 
 with col3:
     st.write(' ')
