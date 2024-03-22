@@ -15,8 +15,9 @@ st.markdown("<h1 style='text-align: center; color: black;'>Implementasi Data Min
 image = Image.open('images/icon.jpg')
 st.image(
     """
-    <style>        
-            align: center;
+    <style>
+        [data-testid=image]{
+            text-align: center;
             display: block;
             margin-left: auto;
             margin-right: auto;
