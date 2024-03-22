@@ -13,8 +13,16 @@ st.markdown("<h1 style='text-align: center; color: black;'>Implementasi Data Min
 #st.write('Implementasi Data Mining Dalam Menganalisis Pola Penjualan Produk Kecantikan Menggunakan Metode Algoritma Apriori')
 
 # Menampilkan gambar
-image = Image.open('images/icon.jpg')
-with open("images/icon.jpg", "rb") as f:
+image = Image.open('images/icon.jpg')    
+col1, col2, col3 = st.columns(3)
+
+with col1:
+    st.write(' ')
+
+with col2:
+    st.write(' ')
+    st.image(image)
+    with open("images/icon.jpg", "rb") as f:
     data = base64.b64encode(f.read()).decode("utf-8")
 
     st.markdown(
@@ -25,15 +33,6 @@ with open("images/icon.jpg", "rb") as f:
         """,
         unsafe_allow_html=True,
     )
-    
-col1, col2, col3 = st.columns(3)
-
-with col1:
-    st.write(' ')
-
-with col2:
-    st.write(' ')
-    st.image(image)
 
 with col3:
     st.write(' ')
